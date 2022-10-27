@@ -1,8 +1,5 @@
 ---
 
-ci:
-  skip: [check-manifest, pylint, cppcheck]
-
 repos:
   - repo: meta
     hooks:
