@@ -1,4 +1,4 @@
 # cla-test
 Testing cla-assistant
 
-Adding something
+Adding something more
