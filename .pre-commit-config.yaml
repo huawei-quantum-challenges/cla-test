@@ -1,0 +1,14 @@
+---
+
+ci:
+  skip: [check-manifest, pylint, cppcheck]
+
+repos:
+  - repo: meta
+    hooks:
+      - id: check-useless-excludes
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+      - id: check-added-large-files
